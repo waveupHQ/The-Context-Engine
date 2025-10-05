@@ -1,0 +1,24 @@
+name: Stock Analyzer
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  analyze-stocks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Analyze stocks
+        run: echo "Analyzing stocks..."
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/stocks/
+          git commit -m "Automated stock analysis update" || echo "No changes to commit"
+          git push
