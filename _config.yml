@@ -1,10 +1,4 @@
-remote_theme: "jekyll/minima@1e8a445"
+remote_theme: pages-themes/time-machine@v0.2.0
 repository: waveupHQ/The-Context-Engine
 plugins:
-  - jekyll-remote-theme
-minima:
-  skin: auto
-header_pages:
-  - index.md
-  - stocks/index.md
-  - specs/ProjectPlan.md
+- jekyll-remote-theme 
