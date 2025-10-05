@@ -1,3 +1,7 @@
+---
+title: Home
+in_nav: true
+---
 # The Context Engine
 
 Welcome to the landing page for The Context Engine, a self-updating, AI-driven analysis and reporting system.

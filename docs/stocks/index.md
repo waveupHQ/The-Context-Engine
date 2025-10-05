@@ -1,5 +1,6 @@
 ---
 title: Stocks
+in_nav: true
 ---
 # Stocks
 
