@@ -26,3 +26,6 @@ Thumbs.db
 
 # GitHub App credentials
 gha-creds-*.json
+
+# Bundler
+vendor/bundle/
