@@ -15,4 +15,4 @@ For more details, see the [Project Plan](./specs/ProjectPlan.md).
 
 ## Published Reports
 
-The latest reports are available on our [GitHub Pages site](https://jebli.github.io/The-Context-Engine/).
+The latest reports are available on our [GitHub Pages site](https://waveuphq.github.io/The-Context-Engine/).
